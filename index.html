@@ -1,103 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <title>Memories Glitch</title>
+    
     <style>
         body {
             background-color: #e6e6fa; /* Light purple */
             color: #000000; /* Text color */
-            font-family: Arial, sans-serif; /* Font style */
         }
 
-        .navbar {
-            background-color: #9370db; /* Purple background for navbar */
+        a {
+            display: inline-block; 
+            padding: 15px 25px; 
+            margin: 10px; 
+            background-color: #d8bfd8; 
+            color: #000000; 
+            border: 2px solid #9370db; 
+            border-radius: 10px; 
+            text-decoration: none; 
+            font-size: 18px; 
+            font-weight: bold; 
+            text-align: center; 
         }
 
-        .navbar-nav .nav-link {
-            color: #ffffff !important; /* White text for the links */
-            font-weight: bold; /* Bold text */
+        a:hover {
+            background-color: #9370db; 
+            color: #ffffff; 
         }
 
-        .navbar-nav .nav-link:hover {
-            background-color: #d8bfd8; /* Light purple background on hover */
-            color: #000000 !important; /* Change text color to black on hover */
+        .container {
+            text-align: center; /* Center all elements */
+            padding: 20px;
         }
 
-        /* Custom CSS to ensure 2cm spacing between images */
-        .image-row {
-            display: flex;
-            justify-content: center;
-            gap: 20px; /* Approx. 2cm spacing between images */
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
         }
 
         img {
-            max-width: 300px; /* Adjust image size */
-            border-radius: 10px; /* Rounded corners */
-        }
-
-        /* Additional style for the paragraph */
-        p.intro {
-            font-size: 20px;
-            margin-bottom: 20px;
+            max-width: 80%; 
+            height: auto;
+            margin: 20px auto;
+            display: block; 
+            border-radius: 10px; 
+            border: 2px solid #9370db;
         }
     </style>
 </head>
 <body>
-
-    <!-- Bootstrap Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">My Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="codes/glitch.html">Glitch Art</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="codes/mememashup.html">Meme Mashup</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="codes/minecraft.html">Minecraft</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="memoriesglitch/memoriesglitch.html">Memories Glitch</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://lauraechavarria19.github.io/netart1/" target="_blank">Net Art</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Bootstrap container for the main content -->
-    <div class="container text-center mt-4">
-        <h1>Welcome to my portfolio</h1>
-
-        <!-- Images with a 2cm gap and rounded corners -->
-        <div class="image-row">
-            <img src="me.jpg" alt="portfolio">
-            <img src="yo.jpg" alt="portfolio">
-        </div>
-
-        <p class="intro">
-            Hello!! You probably don't know me, my name is Laura.<br>
-            Throughout my artistic career, I have explored several art forms, but I have specialized in audiovisuals such as photography and video.
+    <div class="container">
+        <h1>memories glitch</h1>
+<p> Have you ever thought about how important memories are? <p>
+        <p>
+            Haven't you? Well, I'll explain: they reflect our past, but over time, the reflections can fall into oblivion. 
+            This glitch is an exploration of those moments that remain, but have changed shape: images full of noise, with flashes of clarity in the midst of chaos. 
+            It represents the fragility of memory and the strength of emotions that survive. 
+            Here you will find memories disarmed, distorted, but deeply human.
         </p>
 
-        <p>My Art 74 projects are listed in the navigation menu above.</p>
+        <img src="apt.jpg" alt="desktop">
+        
+        <a href="memory1.html" class="link">Do you want to know me?</a>
     </div>
-
-    <!-- Bootstrap 5 JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
